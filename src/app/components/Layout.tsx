@@ -50,7 +50,7 @@ export default function Layout({ children }: LayoutProps) {
       </button>
 
       {/* Main content */}
-      <main className="flex-1 p-4 md:p-8 ml-0 md:ml-16">{children}</main>
+      <main className="flex-1 p-4 md:p-8 ml-0 md:ml-16 pt-14">{children}</main>
     </div>
   );
 }

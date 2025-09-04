@@ -70,12 +70,12 @@ export default function Home() {
 
   return (
     <Layout>
-      <h2 className="text-2xl font-semibold mb-6 sm:pt-14 pt-0">
+      <h2 className="text-2xl font-semibold mb-6 sm:mt-7">
         Welcome Back
       </h2>
 
       {/* Wallet input */}
-      <div className="mb-6 flex flex-row sm:flex-col gap-2">
+      <div className="mb-6 flex flex-col space-y-1 gap-2">
         
       <label className="text-orange-400">Enter an Ethereum wallet address (0x...)</label>
         <input
