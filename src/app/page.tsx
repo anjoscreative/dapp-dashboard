@@ -21,7 +21,6 @@ type NFT = {
   name: string;
   token_id: string;
   metadata: string | null;
-  image: any;
 };
 
 export default function Home() {
